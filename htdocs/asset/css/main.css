@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body{
+	font-family: 'Noto Sans KR', sans-serif;
+	background-color : #ededf2;
+}
+
+.body_set{
+	padding: 20px;
+	background: linear-gradient( to bottom, #4762c7, #344392 );
+	color: white;
+}
+
+#container{
+	margin:auto;
+	max-width:360px;
+	max-height:640px;	
+}
+
+.btn_max{
+	width:100%;
+	border-radius:22px;
+	height:50px;
+	padding-left:22px;
+}
+
+
+.form-space{
+	margin : 15px 0 15px 0;
+}
+
+.filebox label {
+	display: inline-block;
+	text-align: center;
+    padding: 15px;
+    margin: 45 25% 0 25%;
+	width:50%;
+	border-radius:22px;
+	height:50px;
+	color: #ffffff;
+	font-size: inherit;
+	line-height: normal;
+	vertical-align: middle;
+	background-color: #404fb8;
+	cursor: pointer;
+	border: 1px solid #ebebeb;
+	border-bottom-color: #e2e2e2;
+}
+
+.filebox input[type="file"] {  /* 파일 필드 숨기기 */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip:rect(0,0,0,0);
+  border: 0;
+}
+
+.navbar{
+	position: relative;
+    min-height: 50px;
+    margin-bottom:0px;
+    border: 1px solid transparent;
+}
